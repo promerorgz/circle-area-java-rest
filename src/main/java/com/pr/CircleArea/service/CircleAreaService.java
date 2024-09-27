@@ -3,8 +3,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class CircleAreaService {
-  public double calculateArea(double radius){
-  return Math.PI * radius * radius;
+  public String calculateArea(double radius){
+  return Double.toString(Math.PI * radius * radius);
 }
   
 }
