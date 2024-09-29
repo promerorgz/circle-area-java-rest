@@ -1,5 +1,5 @@
-FROM maven:3.9.9 AS builder
-RUN mvn install
+# FROM maven:3.9.9 AS builder
+# RUN mvn install
 
 
 FROM amazoncorretto:21-alpine-jdk AS deplot
